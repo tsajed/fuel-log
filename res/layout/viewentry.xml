@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+		<TextView
+		    android:layout_width="144dp"
+		    android:layout_height="wrap_content"
+		    android:text="@string/date"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/dateView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+	        <requestFocus />
+	    </TextView>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:layout_width="144dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/station"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/stationView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+	        <requestFocus />
+	    </TextView>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	    android:layout_width="144dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/fuel_g"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/fuelgView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	   
+	</LinearLayout>
+	
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	    android:layout_width="144dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/fuel_a"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/fuelaView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	        
+	    </TextView>
+
+
+	    
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+		android:layout_width="144dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/fuel_c"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/fuelcView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:layout_width="144dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/fuel_uc"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/fuelucView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	    android:layout_width="144dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/trip_d"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/tripdView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	   
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="59dp" />
+
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+		<Button
+		    android:id="@+id/back"
+		    android:layout_width="157dp"
+		    android:layout_height="wrap_content"
+		    android:text="@string/back" />
+		
+		<Button
+		    android:id="@+id/remove"
+		    android:layout_width="157dp"
+		    android:layout_height="wrap_content"
+		    android:text="@string/remove" />
+		
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:layout_width="128dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/date"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <EditText
+	        android:id="@+id/date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.26"
+	        android:inputType="text" >
+
+	        <requestFocus />
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:layout_width="128dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/station"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <EditText
+	        android:id="@+id/station"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text" />
+
+
+	    
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	    android:layout_width="128dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/fuel_g"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+	    <EditText
+	        android:id="@+id/fuelg"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text" />
+
+
+	    
+	   
+	</LinearLayout>
+	
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	    android:layout_width="128dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/fuel_a"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+	    <EditText
+	        android:id="@+id/fuela"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="number" >
+	        
+	    </EditText>"
+
+
+	    
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	    android:layout_width="128dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/fuel_c"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+	    <EditText
+	        android:id="@+id/fuelc"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="number" />
+
+
+	    
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:layout_width="128dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/fuel_uc"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <EditText
+	        android:id="@+id/fueluc"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="number" />
+
+
+	    
+	   
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	    android:layout_width="128dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/trip_d"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+	    <EditText
+	        android:id="@+id/tripd"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="number" />
+
+
+	    
+	   
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/confirm"
+	    android:layout_width="115dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/confirm" />
+		
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LogEntryActivity!</string>
+    <string name="app_name">Log Entry</string>
+    <string name="newlog">Add A New Log Entry</string>
+    <string name="date">Date</string>
+    <string name="station">Station</string>
+    <string name="add">Add New Entry</string>
+    <string name="stat">View Statistics</string>
+    <string name="ex">Exit</string>
+    <string name="welcome">Welcome to the Log Entry Application. You can view or delete an entry by clicking on it in the list below. The Entries are arranged in order of dates.</string>
+    <string name="fuel_c">Fuel Cost</string>
+    <string name="fuel_g">Fuel Grade</string>
+    <string name="fuel_uc">Fuel Unit Cost</string>
+    <string name="trip_d">Trip Distance</string>
+    <string name="fuel_a">Fuel Amount</string>
+    <string name="confirm">Confirm</string>
+    <string name="back">Back</string>
+    <string name="remove">Remove</string>
+    <string name="fcr">Fuel Consumption Rate (in L per 100 km, to 1 decimal place)</string>
+    <string name="totalc">Total Cost (in dollars, to 2 decimal places)</string>
+    <string name="totald">Total Distance (in km, to 1 decimal place)</string>
+    <string name="stats">Statistics</string>
+    <string name="mmenu">Main Menu</string>
+
+</resources>
